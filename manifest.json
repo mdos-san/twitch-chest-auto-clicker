@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Twitch chest auto-clicker",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitch.tv/*"],
+      "js": ["twitch-chest-auto-clicker.js"]
+    }
+  ]
+}
